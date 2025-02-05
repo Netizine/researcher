@@ -16,9 +16,9 @@ import os
 
 from dotenv import load_dotenv
 
-from icis_researcher import GPTResearcher
-from icis_researcher.utils.enum import ReportType, Tone
-from backend.report_type import DetailedReport
+from app.researcher.icis_researcher import GPTResearcher
+from app.researcher.icis_researcher.utils.enum import ReportType, Tone
+from app.researcher.backend.report_type import DetailedReport
 
 # =============================================================================
 # CLI
